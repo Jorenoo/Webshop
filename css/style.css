@@ -1,0 +1,41 @@
+body
+{
+  background-color: #FFFF;
+}
+
+.card {
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    margin:38px;
+    top: 25px;
+    display: inline-block;
+  }
+  
+  .price {
+    color: dimgray;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    background-color: #EE5A24;
+    color: black;
+  }
+
+  .products{
+    float: center;
+    
+  }
